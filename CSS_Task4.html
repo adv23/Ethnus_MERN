@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .sidenav a{
+                padding: 20px;
+                left: 0px;
+                text-decoration: none;
+                transition: 0.5s;
+                color: transparent;
+            }
+            a{
+                border-radius: 0 5px 5px 0;
+            }
+            #About{
+                position: absolute;
+                top: 25px;
+                background-color: green;
+                padding-bottom: 25px;
+            }
+            #Blog{
+                position: absolute;
+                top: 90px;
+                background-color: rgb(96, 96, 246);
+                padding: 25px;
+            }
+            #Projects{
+                position: absolute;
+                top: 160px;
+                background-color: red;
+                padding-right: 10px;
+                padding-bottom: 25px;
+                padding-top: 25px;
+            }
+            #Contact{
+                position: absolute;
+                top: 230px;
+                background-color: grey;
+                padding-right: 12px;
+                padding-bottom: 25px;
+            }
+            .sidenav a:hover{
+                width: 17.5%;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidenav">
+            <a href="#" id="About">About</a>
+            <a href="#" id="Blog">Blog</a>
+            <a href="#" id="Projects">Projects</a>
+            <a href="#" id="Contact">Contact</a>
+        </div>
+        <div style="margin-left:80px;">
+            <h2>Hoverable Sidenav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+          </div>
+    </body>
+</html>

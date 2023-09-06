@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task2 </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .navbar a:hover{
+                background-color: rgb(233, 177, 57);
+            }
+            .vertical{
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(117, 213, 235);
+                width: 150px;
+                position: relative;
+                top: 20px;
+                left: 20px; 
+            }
+            .vertical a{
+                display: block;
+                text-decoration: none;
+                font-size: large;
+                padding: 10px 20px;
+            }
+            .horizontal{
+                position: absolute;
+                left: 300px;
+                top: 60px;
+                display: flex;
+                flex-direction: row;
+                background-color: #d5d5d5;
+                text-align: center;
+                margin-left: 20px;
+                width:auto;
+            }
+            .horizontal a{
+                font-size: large;
+                padding: 5px 10px;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .navbar{
+                flex-wrap: wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="vertical navbar">
+            <a href="" class="A">Home</a></li>
+            <a href="">Java</a></li>
+            <a href="">CSS</a></li>
+            <a href="">HTML</a></li>
+            <a href="">Bootstrap</a></li>
+        </div>
+    <div class="horizontal navbar">
+        <a href="" class="A">Home</a></li>
+        <a href="">Java</a></li>
+        <a href="">CSS</a></li>
+        <a href="">HTML</a></li>
+        <a href="">Bootstrap</a></li>
+    </div>
+    </body>
+</html>
