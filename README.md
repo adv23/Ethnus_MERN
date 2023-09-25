@@ -1,2 +1,2 @@
-# Ethnus_mern
+# Ethnus_mern_HTML+CSS
 Codes for mernstack tasks
